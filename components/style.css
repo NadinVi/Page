@@ -73,3 +73,30 @@ input {
     text-transform: uppercase;
     background-color: #34547A;
 }
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
+}
+.text_about {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 690px;
+    margin-right: 690px;
+}
+.numbers {
+    /*background-image: url(/components/img/numbers.png);*/
+    height: 250px;
+    width: 1920px;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
