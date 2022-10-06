@@ -15,7 +15,7 @@ body {
 }
 
 .page_container {
-    width: 1100px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -54,10 +54,6 @@ a {
     letter-spacing: 0.1em;
 }
 
-.first-screen {
-    width: 540px;
-}
-
 h1 {
     font-family: "Roboto-Regular";
     font-size: 48px;
@@ -90,9 +86,6 @@ input {
     background-color: #34547A;
 }
 
-.page-content {
-   
-}
 
 .about_me {
     display: flex;
@@ -112,20 +105,42 @@ input {
 .card {
     background-color: #34547A;
     width: 100%;
+    padding: 100px 0;
+    margin-top: 100px;
 }
 
-.numbers {
-    margin-top: 100px;
-    width: 1100px;
+.section {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.piccard {
+    padding-right: 49px;
+}
+
+.text_card {
+    display: inline-block;
+    font-family: "Roboto-Regular";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    vertical-align: bottom;
 }
 
 .work {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 540px;
     margin-top: 100px;
+}
+
+.text_work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
 }
 
 h2 {
@@ -136,8 +151,10 @@ h2 {
 }
 
 .text_2 {
+    font-family: "Roboto-Regular";
     text-align: center;
     margin-top: 50px;
+    line-height: 26px;
 }
 
 .video {
